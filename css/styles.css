@@ -51,7 +51,9 @@ a {
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
-.contacts:active {
+.contacts:active,
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 .first-block {
