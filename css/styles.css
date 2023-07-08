@@ -28,7 +28,7 @@ a {
 .part-of-logo {
   color: #4d5ae5;
 }
-.navigation {
+.link-navigation {
   color: var(--main-color);
   font-family: Roboto, sans-serif;
   font-size: 16px;
@@ -37,9 +37,9 @@ a {
   letter-spacing: 0.32px;
 }
 
-.navigation:active,
-.navigation:hover,
-.navigation:focus {
+.link-navigation:active,
+.link-navigation:hover,
+.link-navigation:focus {
   color: #404bbf;
   text-decoration: underline;
 }
