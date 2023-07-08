@@ -6,7 +6,8 @@
 body {
   font-family: Roboto, sans-serif;
   color: var(--main-color);
-  background-color: #434455;
+  color: #434455;
+  background-color: #FFFFFF;
 }
 ul {
   list-style: none;
@@ -29,21 +30,23 @@ a {
 }
 .navigation {
   color: var(--main-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.navigation:active {
+.navigation:active,
+.navigation:hover,
+.navigation:focus {
   color: #404bbf;
   text-decoration: underline;
 }
 
 .contacts {
   color: #434455;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -57,7 +60,7 @@ a {
 .main-title {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -66,12 +69,13 @@ a {
 
 .main-button {
   color: #fff;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
 .main-button:hover,
@@ -90,7 +94,7 @@ a {
 }
 .third-title {
   color: var(--main-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -99,7 +103,7 @@ a {
 
 .text-description {
   color: var(--second-text-color);
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -108,10 +112,10 @@ a {
 .second-title {
   color: var(--main-color);
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.111;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -132,7 +136,7 @@ footer {
 
 .description-in-footer {
   color: #f4f4fd;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -141,17 +145,22 @@ footer {
 .button-our-directions {
   color: #4d5ae5;
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   border: 1px;
   background: #f4f4fd;
+  cursor: pointer;
 }
 
 .button-our-directions:hover,
 .button-our-directions:focus {
   color: #fff;
   background: #404bbf;
+}
+
+.list{
+  background-color: #FFFFFF;
 }
