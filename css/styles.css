@@ -130,7 +130,7 @@ footer {
   background-color: var(--main-color);
 }
 
-.part-of-logo-footer {
+.part-logo-footer {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
@@ -140,7 +140,7 @@ footer {
   text-transform: uppercase;
 }
 
-.description-in-footer {
+.description-footer {
   color: #f4f4fd;
   font-family: Roboto, sans-serif;
   font-size: 16px;
