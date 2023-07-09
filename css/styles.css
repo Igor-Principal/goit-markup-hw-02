@@ -7,7 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   color: var(--main-color);
   color: #434455;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -17,7 +17,7 @@ a {
 }
 
 .logo {
-  color: var(--main-color);
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -26,7 +26,7 @@ a {
   text-transform: uppercase;
 }
 .part-of-logo {
-  color: #4d5ae5;
+  color: var(--main-color);
 }
 .link-navigation {
   color: var(--main-color);
@@ -126,7 +126,7 @@ footer {
   background-color: var(--main-color);
 }
 
-.logo-footer {
+.part-of-logo-footer {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
@@ -163,6 +163,6 @@ footer {
   background: #404bbf;
 }
 
-.list{
-  background-color: #FFFFFF;
+.list {
+  background-color: #ffffff;
 }
