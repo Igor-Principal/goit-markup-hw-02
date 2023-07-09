@@ -16,6 +16,10 @@ ul {
   text-decoration: none;
 }
 
+.list {
+  background-color: #ffffff;
+}
+
 .logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -167,6 +171,4 @@ footer {
   background: #404bbf;
 }
 
-.list {
-  background-color: #ffffff;
-}
+
