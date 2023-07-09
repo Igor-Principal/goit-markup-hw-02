@@ -131,7 +131,7 @@ footer {
 }
 
 .part-logo-footer {
-  color: var(--cloud, #f4f4fd);
+  color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
