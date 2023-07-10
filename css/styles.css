@@ -129,8 +129,11 @@ ul {
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-
-footer {
+.part-about-team{
+  background-color: #F4F4FD;
+}
+   
+.footer {
   background-color: var(--main-color);
 }
 
