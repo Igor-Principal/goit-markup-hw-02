@@ -133,7 +133,11 @@ ul {
   background-color: #F4F4FD;
 }
    
-.footer {
+.photos{
+  background-color: #FFFFFF;
+}
+
+.footer-characteristics{
   background-color: var(--main-color);
 }
 
@@ -147,7 +151,7 @@ ul {
   text-transform: uppercase;
 }
 
-.description-footer {
+.description-of-footer {
   color: #f4f4fd;
   font-family: Roboto, sans-serif;
   font-size: 16px;
